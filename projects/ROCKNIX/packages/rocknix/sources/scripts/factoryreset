@@ -23,6 +23,9 @@ case "${1}" in
     rm -rf /storage/.config/azahar
     cp -rf /usr/config/azahar /storage/.config/
 
+    rm -rf /storage/.config/eden
+    cp -rf /usr/config/eden /storage/.config/
+
     rm -rf /storage/.config/dolphin-emu
     cp -rf /usr/config/dolphin-emu /storage/.config/
 
